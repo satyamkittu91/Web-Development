@@ -1,0 +1,38 @@
+
+    .FIRST-button {
+        background-color: #0091bd;
+        color: white;
+        border: none;
+        height: 35px;
+        width: 100px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: 0.20s,
+          color 0.20s,
+          background-color 0.20s;
+
+    }
+
+    .FIRST-button:hover {
+        background-color: #ff0000;
+        box-shadow: 10px 10px 5px black;
+        color: black;
+    }
+
+
+    .SECOND-button {
+        background-color: hsl(124, 74%, 44%);
+        color: black;
+        border-color: rebeccapurple;
+        height: 35px;
+        width: 100px;
+        cursor: pointer;
+        border-width: 2px;
+        border-radius: 16px;
+    }
+
+    .SECOND-button:hover {
+        opacity: 0.8;
+    }
+
